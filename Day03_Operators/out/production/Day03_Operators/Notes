@@ -1,0 +1,143 @@
+In Java, operators are special symbols that represent computations or actions to be performed on operands.
+ Operators can be used to manipulate data, perform arithmetic operations, compare values, and more. They are an essential part of
+ the language and are categorized into several types. Below are detailed notes on various types of operators in Java, along with example code for each type:
+
+### Arithmetic Operators✅
+Arithmetic operators are used for mathematical calculations.
+
+1. **Addition (+):** Adds two values.
+
+```java
+int result = 5 + 3; // result is 8
+```
+
+2. **Subtraction (-):** Subtracts the right operand from the left operand.
+
+```java
+int result = 10 - 4; // result is 6
+```
+
+3. **Multiplication (*):** Multiplies two values.
+
+```java
+int result = 6 * 3; // result is 18
+```
+
+4. **Division (/):** Divides the left operand by the right operand.
+
+```java
+int result = 10 / 2; // result is 5
+```
+
+5. **Modulus (%):** Returns the remainder when the left operand is divided by the right operand.
+
+```java
+int result = 11 % 3; // result is 2
+```
+
+### Relational Operators🔻
+Relational operators are used to compare values and return a boolean result.
+
+1. **Equal to (==):** Checks if two values are equal.
+
+```java
+boolean isEqual = (5 == 5); // isEqual is true
+```
+
+2. **Not equal to (!=):** Checks if two values are not equal.
+
+```java
+boolean isNotEqual = (7 != 3); // isNotEqual is true
+```
+
+3. **Greater than (>):** Checks if the left operand is greater than the right operand.
+
+```java
+boolean isGreaterThan = (10 > 8); // isGreaterThan is true
+```
+
+4. **Less than (<):** Checks if the left operand is less than the right operand.
+
+```java
+boolean isLessThan = (3 < 7); // isLessThan is true
+```
+
+5. **Greater than or equal to (>=):** Checks if the left operand is greater than or equal to the right operand.
+
+```java
+boolean isGreaterOrEqual = (6 >= 6); // isGreaterOrEqual is true
+```
+
+6. **Less than or equal to (<=):** Checks if the left operand is less than or equal to the right operand.
+
+```java
+boolean isLessOrEqual = (4 <= 5); // isLessOrEqual is true
+```
+
+### Logical Operators✅
+Logical operators are used to perform logical operations on boolean values.
+
+1. **Logical AND (&&):** Returns true if both operands are true.
+
+```java
+boolean result = (true && false); // result is false
+```
+
+2. **Logical OR (||):** Returns true if at least one operand is true.
+
+```java
+boolean result = (true || false); // result is true
+```
+
+3. **Logical NOT (!):** Negates the value of the operand.
+
+```java
+boolean result = !true; // result is false
+```
+
+### Assignment Operators✅
+Assignment operators are used to assign values to variables.
+
+1. **Assignment (=):** Assigns the value on the right to the variable on the left.
+
+```java
+int x = 10;
+```
+
+2. **Addition Assignment (+=):** Adds the right operand to the variable and assigns the result to the variable.
+
+```java
+int x = 5;
+x += 3; // x is now 8
+```
+
+3. **Subtraction Assignment (-=):** Subtracts the right operand from the variable and assigns the result to the variable.
+
+```java
+int x = 10;
+x -= 4; // x is now 6
+```
+
+4. **Multiplication Assignment (*=):** Multiplies the variable by the right operand and assigns the result to the variable.
+
+```java
+int x = 3;
+x *= 2; // x is now 6
+```
+
+5. **Division Assignment (/=):** Divides the variable by the right operand and assigns the result to the variable.
+
+```java
+int x = 12;
+x /= 4; // x is now 3
+```
+
+6. **Modulus Assignment (%=):** Calculates the modulus of the variable and assigns the result to the variable.
+
+```java
+int x = 15;
+x %= 7; // x is now 1
+```
+
+These are the primary categories of operators in Java. By using these operators, you can perform various operations on data and control the flow
+of your Java programs.
