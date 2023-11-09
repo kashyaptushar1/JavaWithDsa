@@ -1,22 +1,10 @@
-# Project Name
+![banner](https://user-images.githubusercontent.com/23727056/87433896-78ae9700-c607-11ea-9ca6-9cdbe3f67998.jpg)
 
-[![License](https://img.shields.io/badge/License-MIT-blue.svg)](LICENSE)
+The aim of this repository is to collect awesome READMEs that developers around the world are using on their own profiles to act as an inspiration for others.
+Video about [GitHub Profile README](https://twitter.com/github/status/1294348292130836482?s=20)
 
-## Description
+Feel free to add your own or someone else's profile README if you find it super awesome! 
 
-Brief description of your project goes here.
+Don't forget to leave a if you find this repo useful ⭐
 
-## Table of Contents
-
-- [Installation](#installation)
-- [Usage](#usage)
-- [Contributing](#contributing)
-- [License](#license)
-
-## Installation
-
-Explain how to install your project, including any dependencies.
-
-```bash
-# Example installation commands
-npm install
+Thankyou🎆
