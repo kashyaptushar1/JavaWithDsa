@@ -2,7 +2,7 @@
   <img src="path/to/your/logo.png" alt="Project Logo" width="200" height="200">
 </p>
 
-# Project Name
+Java With DSA
 
 [![License](https://img.shields.io/badge/License-MIT-blue.svg)](LICENSE)
 [![Build Status](https://img.shields.io/travis/username/repo.svg)](https://travis-ci.org/username/repo)
@@ -15,7 +15,7 @@ A concise and appealing description of your project.
 
 ## Table of Contents
 
-- [Installation](#installation)
+- [Day1](#Day1)
 - [Usage](#usage)
 - [Contributing](#contributing)
 - [License](#license)
