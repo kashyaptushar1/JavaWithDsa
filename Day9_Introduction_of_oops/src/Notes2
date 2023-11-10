@@ -1,0 +1,161 @@
+
+
+1. **Class and Object:👇
+- 👨‍💻Class:-
+  + A class is a blueprint for creating objects. It defines the attributes and behaviors common to all
+   objects of that type.
+  + In Java, a class is declared using the `class` keyword.
+
+    java code Example:
+    public class Car {
+        // Class members (fields, methods, etc.)
+    }
+
+  - 👨‍🏫Object:
+  + An object is an instance of a class. It represents a real-world entity and is created from a class blueprint.
+  + Objects have state (attributes) and behavior (methods).
+
+    java code Example:
+    Car myCar = new Car();  // Creating an instance of the Car class
+
+
+ 2. **Encapsulation:👇
+- **Encapsulation is the bundling of data and methods that operate on that data into a single unit (class).**
+- It helps in data hiding and protects the integrity of the data by restricting access to the internal
+ state of the object.
+- Access modifiers (`public`, `private`, `protected`) control the visibility of class members.
+
+    java code Example:
+    public class BankAccount {
+        private double balance;  // Encapsulated field
+
+        public void deposit(double amount) {
+            // Method to modify the balance
+        }
+
+        public double getBalance() {
+            // Method to access the balance
+            return balance;
+        }
+    }
+
+
+ 3. **Inheritance:👇
+- **Inheritance is a mechanism where a new class inherits properties and behaviors from an existing class.**
+- The existing class is called the superclass or parent class, and the new class is the subclass or child class.
+- It promotes code reuse and allows the creation of a more specialized class.
+
+    java code Example:
+    public class Animal {
+        public void eat() {
+            // Common behavior for all animals
+        }
+    }
+
+    public class Dog extends Animal {
+        public void bark() {
+            // Behavior specific to dogs
+        }
+    }
+
+
+ 4. **Polymorphism:👇
+- **Polymorphism allows objects of different types to be treated as objects of a common type.**
+- There are two types: compile-time (method overloading) and runtime (method overriding) polymorphism.
+- Method overloading: Same method name, different parameters.
+
+    java code Example:
+    public class Calculator {
+        public int add(int a, int b) {
+            return a + b;
+        }
+
+        public double add(double a, double b) {
+            return a + b;
+        }
+    }
+
+
+- Method overriding: Same method signature in the subclass as in the superclass.
+
+    java code Example:
+    public class Animal {
+        public void makeSound() {
+            // Common sound for all animals
+        }
+    }
+
+    public class Dog extends Animal {
+        public void makeSound() {
+            // Specific sound for dogs
+        }
+    }
+
+
+ 5. **Abstraction:👇
+- Abstraction is the process of hiding the implementation details and showing only the essential features
+ of an object.
+- Abstract classes and interfaces are used to achieve abstraction.
+
+    java code Example:
+    abstract class Shape {
+        abstract void draw();  // Abstract method with no implementation
+    }
+
+    class Circle extends Shape {
+        void draw() {
+            // Implementation for drawing a circle
+        }
+    }
+    ```
+
+ 6. **Interfaces:👇
+- An interface is a collection of abstract methods.
+- It allows a class to implement multiple interfaces, achieving multiple inheritances of type.
+- It provides a way to achieve abstraction and support for multiple behaviors.
+
+    java code Example:
+    interface Flyable {
+        void fly();  // Abstract method
+    }
+
+    class Bird implements Flyable {
+        public void fly() {
+            // Implementation for flying
+        }
+    }
+
+
+ 7. Association, Aggregation, and Composition:👇
+- Association:👨‍💻
+  + A relationship between two classes where one class is related to another class.
+  + It can be one-to-one, one-to-many, or many-to-many.
+
+    java code Example:
+    class Person {
+        private Job job;  // Association with the Job class
+    }
+
+
+- Aggregation:👨‍💻
+  + A more specific form of association representing a "whole" and "part" relationship.
+  + The "part" class can exist independently of the "whole."
+
+    java code Example:
+    class Department {
+        private List<Employee> employees;  // Aggregation with the Employee class
+    }
+    ```
+
+- Composition:👨‍👨‍💻
+  + A strong form of aggregation where the "part" class cannot exist without the "whole."
+  + The "part" class is created and managed by the "whole" class.
+
+    java code Example:
+    class Car {
+        private Engine engine;  // Composition with the Engine class
+    }
+    ```
+
+These are the foundational principles of OOP in Java. They provide a robust and flexible framework
+ for building modular, scalable, and maintainable software.
