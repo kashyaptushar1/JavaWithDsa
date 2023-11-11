@@ -1,0 +1,22 @@
+
+
+**Abstract Class:**
+- **Definition:** Cannot be directly used; serves as a blueprint for other classes.
+- **Instantiation:** Cannot create objects directly.
+- **Constructors:** Can have both abstract (no implementation) and concrete methods.
+- **Methods:** Can have abstract methods (no body) and concrete methods (with a body).
+- **Use Case:** Used when you want to provide a common structure for multiple related classes.
+- **Object Creation:** Cannot create instances of an abstract class.
+- **Example:** `abstract class Shape { abstract void draw(); }`
+- **Inheritance:** Can have both abstract and concrete subclasses.
+
+**Concrete Class:**
+- **Definition:** Directly used to create objects with complete functionality.
+- **Instantiation:** Can create objects directly using the `new` keyword.
+- **Constructors:** All methods must have a concrete implementation.
+- **Methods:** All methods must have a concrete implementation.
+- **Use Case:** Used when you want to create objects directly with complete functionality.
+- **Object Creation:** Can create instances of a concrete class directly.
+- **Example:** `class Circle extends Shape { void draw() { /* implementation */ } }`
+- **Inheritance:** Can have subclasses that inherit and extend the functionality.
+

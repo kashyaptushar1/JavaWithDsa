@@ -1,0 +1,200 @@
+Inheritance is one of the core concepts in object-oriented programming (OOP) that allows a class to
+inherit properties and behaviors from another class. In Java, inheritance facilitates code reuse and
+ the creation of a hierarchy of classes. Here are detailed notes on Java inheritance:
+
+📜 1. **Basic Concepts:**
+
+- **Superclass and Subclass:**
+  - Inheritance involves two classes: a superclass (or parent class) and a subclass (or child class).
+  - The subclass inherits attributes and behaviors from the superclass.
+
+    ```java
+    // Superclass
+    class Animal {
+        void eat() {
+            System.out.println("Animal is eating");
+        }
+    }
+
+    // Subclass inheriting from Animal
+    class Dog extends Animal {
+        void bark() {
+            System.out.println("Dog is barking");
+        }
+    }
+    ```
+
+📜 2. **Syntax:**
+
+- **Declaration of Subclass:**
+  - The `extends` keyword is used to declare a subclass.
+
+    ```java
+    class Subclass extends Superclass {
+        // subclass members
+    }
+    ```
+
+- **Access Modifiers:**
+  - Inherited members can have the same access modifiers or a less restrictive one
+   (e.g., from `public` to `protected`).
+
+    ```java
+    // Superclass with public method
+    public class Animal {
+        public void eat() {
+            System.out.println("Animal is eating");
+        }
+    }
+
+    // Subclass inheriting from Animal
+    class Dog extends Animal {
+        // Subclass can override or extend the public method
+        @Override
+        public void eat() {
+            System.out.println("Dog is eating");
+        }
+    }
+    ```
+
+📜 3. **Types of Inheritance:**
+
+- **Single Inheritance:**
+  - A subclass can inherit from only one superclass.
+
+    ```java
+    class A { /* ... */ }
+    class B extends A { /* ... */ }
+    ```
+
+- **Multiple Inheritance (Interface):**
+  - A class can implement multiple interfaces, achieving a form of multiple inheritance.
+
+    ```java
+    interface A { /* ... */ }
+    interface B { /* ... */ }
+    class C implements A, B { /* ... */ }
+    ```
+
+- **Multilevel Inheritance:**
+  - A subclass can become a superclass for another class.
+
+    ```java
+    class A { /* ... */ }
+    class B extends A { /* ... */ }
+    class C extends B { /* ... */ }
+    ```
+
+- **Hierarchical Inheritance:**
+  - Multiple classes inherit from a single superclass.
+
+    ```java
+    class A { /* ... */ }
+    class B extends A { /* ... */ }
+    class C extends A { /* ... */ }
+    ```
+
+📜 4. **Method Overriding:**
+
+- **Definition:**
+  - A subclass can provide a specific implementation for a method already defined in its superclass.
+  - The overridden method in the subclass should have the same method signature.
+
+    ```java
+    class Animal {
+        void makeSound() {
+            System.out.println("Animal makes a sound");
+        }
+    }
+
+    class Dog extends Animal {
+        @Override
+        void makeSound() {
+            System.out.println("Dog barks");
+        }
+    }
+    ```
+
+- **`@Override` Annotation:**
+  - The `@Override` annotation is used to indicate that a method is intended to override a method
+  in the superclass.
+
+📜 5. **Super Keyword:**
+
+- **Usage:**
+  - The `super` keyword is used to refer to the superclass, allowing access to its members from the subclass.
+
+    ```java
+    class Animal {
+        void eat() {
+            System.out.println("Animal is eating");
+        }
+    }
+
+    class Dog extends Animal {
+        void eat() {
+            super.eat(); // Call the eat() method of the superclass
+            System.out.println("Dog is eating");
+        }
+    }
+    ```
+
+📜 6. **Constructor in Inheritance:**
+
+- **Superclass Constructor:**
+  - The superclass constructor is called implicitly when an object of the subclass is created.
+  - If the superclass has a parameterized constructor, the subclass constructor must call it using `super()`.
+
+    ```java
+    class Animal {
+        Animal() {
+            System.out.println("Animal constructor");
+        }
+    }
+
+    class Dog extends Animal {
+        Dog() {
+            super(); // Implicit call to the Animal constructor
+            System.out.println("Dog constructor");
+        }
+    }
+    ```
+
+📜 7. **Abstract Classes:**
+
+- **Definition:**
+  - An abstract class is a class that cannot be instantiated and may have abstract methods
+   (methods without a body).
+  - Abstract methods must be implemented by concrete (non-abstract) subclasses.
+
+    ```java
+    abstract class Shape {
+        abstract void draw(); // Abstract method
+    }
+
+    class Circle extends Shape {
+        void draw() {
+            System.out.println("Drawing a circle");
+        }
+    }
+    ```
+
+### 8. **Final Classes and Methods:**
+
+- **`final` Keyword:**
+  - A class marked as `final` cannot be extended (no subclasses allowed).
+  - A method marked as `final` cannot be overridden in subclasses.
+
+    ```java
+    final class FinalClass { /* ... */ }
+
+    class Subclass /* extends FinalClass */ { /* Error: cannot extend final class */ }
+
+    class Animal {
+        final void eat() {
+            System.out.println("Animal is eating");
+        }
+    }
+
+    class Dog extends Animal {
+        // Error: cannot override final method
