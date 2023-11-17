@@ -1,0 +1,86 @@
+📘Variables in Java:-
+
+📘Definition:-
+- **Variable:**
+  - In Java, a variable is a named storage location in memory that is used to hold data during the execution of a program. It provides a way to refer to and manipulate data in the program.
+
+📘Characteristics:
+- **Name:**
+  - A variable in Java must have a valid identifier as its name. It should start with a letter, dollar sign (`$`), or underscore (`_`) and can be followed by letters, digits, underscores, or dollar signs. It is case-sensitive.
+
+- **Data Type:**
+  - Every variable in Java has a data type that specifies the type of data it can hold (e.g., int, double, String). This helps Java allocate the appropriate amount of memory and ensures type safety.
+
+- **Value:**
+  - A variable can hold different values during the program's execution. The value is assigned using the assignment operator (`=`).
+
+- **Scope:**
+  - Variables in Java can have different scopes. Local variables are declared within a method or block and have limited visibility. Instance variables are associated with an object, and class variables (static variables) belong to the class itself.
+
+📘Declaration and Assignment:
+- **Declaration:**
+  - Before using a variable, it needs to be declared, specifying its data type and name.
+
+    ```java
+    int age; // Declaration of an integer variable named 'age'
+    ```
+
+- **Assignment:**
+  - Assigning a value to a variable is done using the assignment operator.
+
+    ```java
+    age = 25; // Assigning the value 25 to the variable 'age'
+    ```
+
+    Alternatively, declaration and assignment can be combined:
+
+    ```java
+    int age = 25; // Declaration and assignment in one line
+    ```
+
+📘Data Types in Java:
+
+### Primitive Data Types:
+Java has eight primitive data types, which are the most basic building blocks for data manipulation. They are divided into four groups:
+
+1. **Integral Types:**
+   - `byte`: 8-bit signed integer.
+   - `short`: 16-bit signed integer.
+   - `int`: 32-bit signed integer.
+   - `long`: 64-bit signed integer.
+
+2. **Floating-Point Types:**
+   - `float`: 32-bit floating-point.
+   - `double`: 64-bit floating-point.
+
+3. **Character Type:**
+   - `char`: 16-bit Unicode character.
+
+4. **Boolean Type:**
+   - `boolean`: Represents true or false values.
+
+📘Reference Data Types:
+Reference data types are used to refer to objects. They include:
+
+- **Class Types:**
+  - Any class you create or use in Java.
+
+- **Interface Types:**
+  - Interfaces that can be implemented by classes.
+
+- **Array Types:**
+  - Arrays, which are ordered collections of elements.
+
+📘Strings:
+Java provides a built-in class called `String` to represent sequences of characters. Although not a primitive type, strings are widely used and have special support in the Java language.
+
+📘Declaration and Initialization of Variables:
+```java
+int age; // Declaration
+age = 25; // Initialization
+
+double pi = 3.14; // Declaration and initialization in one line
+
+String name = "John"; // Declaration and initialization of a String
+```
+
