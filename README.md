@@ -1,39 +1,17 @@
-<!-- Head Section -->
-# <img src="https://your-graphics-website-logo-url" alt="Graphics Website Logo" width="50"> 120 Days of Java with Data Structures and Algorithms
+<h1 align="center">Hi 👋, I'm Tushar kashyap</h1>
+<h3 align="center">A passionate frontend developer from Anoopshahr</h3>
 
-Welcome to my 120-day journey through Data Structures and Algorithms using Java! This repository documents my daily progress, featuring code, notes, and resources.
+- 🔭 I’m currently working on **java**
 
-## Table of Contents
+- 🌱 I’m currently learning **Web Development**
 
-- [Daily Progress](#daily-progress)
-- [Getting Started](#getting-started)
-- [Project Structure](#project-structure)
-- [Contributing](#contributing)
-- [License](#license)
-- [Connect with Me](#connect-with-me)
+<h3 align="left">Connect with me:</h3>
+<p align="left">
+<a href="https://linkedin.com/in/tushar kashyap" target="blank"><img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/linked-in-alt.svg" alt="tushar kashyap" height="30" width="40" /></a>
+<a href="https://instagram.com/i_am_tushar2709" target="blank"><img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/instagram.svg" alt="i_am_tushar2709" height="30" width="40" /></a>
+</p>
 
-<!-- Daily Progress Section -->
-## Daily Progress
+<h3 align="left">Languages and Tools:</h3>
+<p align="left"> <a href="https://www.cprogramming.com/" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/c/c-original.svg" alt="c" width="40" height="40"/> </a> <a href="https://www.java.com" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/java/java-original.svg" alt="java" width="40" height="40"/> </a> </p>
 
-Explore my daily projects and notes:
-
-- [Day 1: Variables and Data Types](https://github.com/kashyaptushar1/120-Days-Java_With_DSA-/tree/main/Day01_Variables%20and%20Data%20type)
-- [Day 2: Arrays](https://github.com/kashyaptushar1/120-Days-Java_With_DSA-/tree/main/Day02_Arrays)
-- [Day 3: Strings](https://github.com/kashyaptushar1/120-Days-Java_With_DSA-/tree/main/Day03_Strings)
-- ...
-
-<!-- Getting Started Section -->
-## Getting Started
-
-Before diving into the projects, make sure you have Java and a Java development environment set up on your machine.
-
-### Prerequisites
-
-- **Java Development Kit (JDK) installed**
-- **Integrated Development Environment (IDE) like IntelliJ or Eclipse (optional)**
-
-### Clone the Repository
-
-```bash
-git clone https://github.com/kashyaptushar1/120-Days-Java_With_DSA-.git
-cd 120-Days-Java_With_DSA-
+<p><img align="center" src="https://github-readme-stats.vercel.app/api/top-langs?username=kashyaptushar1&show_icons=true&locale=en&layout=compact" alt="kashyaptushar1" /></p>
