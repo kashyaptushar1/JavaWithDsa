@@ -4,7 +4,7 @@ This repository contains a collection of Java projects created as part of the "3
 
 ## Table of Contents
 
-- [Day1](#)
+- [Day1](https://github.com/kashyaptushar1/120-Days-Java_With_DSA-/tree/main/Day01_Variables%20and%20Data%20type)
 - [Project Structure](#project-structure)
 - [How to Run](#how-to-run)
 - [Contributing](#contributing)
