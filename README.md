@@ -4,7 +4,7 @@ This repository contains a collection of Java projects created as part of the "3
 
 ## Table of Contents
 
-- [Getting Started](#getting-started)
+- [Day1](#)
 - [Project Structure](#project-structure)
 - [How to Run](#how-to-run)
 - [Contributing](#contributing)
