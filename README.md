@@ -1,4 +1,4 @@
-<h1 align="center">Hi 👋, I'm Tushar kashyap</h1>
+<h1 align="center">Hi 👋, I'm Tushar kashyap🧑</h1>
 <h3 align="center">A passionate frontend developer from Anoopshahr</h3>
 
 - 🔭 I’m currently working on **java**
@@ -16,9 +16,9 @@
 <p><img align="center" src="https://github-readme-stats.vercel.app/api/top-langs?username=kashyaptushar1&show_icons=true&locale=en&layout=compact" alt="kashyaptushar1" /></p>
 
 
-## Days of DSA Journey
+## 120-Days of Java with DSA Journey👇
 
-Here's a list of my daily progress in the Data Structures and Algorithms (DSA) journey:
+Here's a list of my daily progress in the  java with Data Structures and Algorithms (DSA) journey:
 
 - [Day 1: Variables and Data Types](https://github.com/kashyaptushar1/120-Days-Java_With_DSA-/tree/main/Day01_Variables%20and%20Data%20type)
 - [Day 2: Taking User Input](https://github.com/kashyaptushar1/120-Days-Java_With_DSA-/tree/main/Day02_Taking%20Input)
