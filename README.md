@@ -21,15 +21,24 @@
 Here's a list of my daily progress in the Data Structures and Algorithms (DSA) journey:
 
 - [Day 1: Variables and Data Types](https://github.com/kashyaptushar1/120-Days-Java_With_DSA-/tree/main/Day01_Variables%20and%20Data%20type)
-- [Day 2: Arrays](link-to-day2)
-- [Day 3: Strings](link-to-day3)
-- [Day 4: Linked Lists](link-to-day4)
-- [Day 5: Stacks](link-to-day5)
-- [Day 6: Queues](link-to-day6)
-- [Day 7: Trees](link-to-day7)
-- [Day 8: Graphs](link-to-day8)
-- [Day 9: Sorting Algorithms](link-to-day9)
-- [Day 10: Searching Algorithms](link-to-day10)
+- [Day 2: Taking User Input](https://github.com/kashyaptushar1/120-Days-Java_With_DSA-/tree/main/Day02_Taking%20Input)
+- [Day 3: Operaters](https://github.com/kashyaptushar1/120-Days-Java_With_DSA-/tree/main/Day03_Operators)
+- [Day 4: Conditions](https://github.com/kashyaptushar1/120-Days-Java_With_DSA-/tree/main/Day4_Conditionals)
+- [Day 5: Basic of Loops](https://github.com/kashyaptushar1/120-Days-Java_With_DSA-/tree/main/Day5_Basic%20of%20loops)
+- [Day 6: Important quetions on loops](https://github.com/kashyaptushar1/120-Days-Java_With_DSA-/tree/main/Day6_Important_Questions_On_Single_Loop)
+- [Day 7: Nested Loops](https://github.com/kashyaptushar1/120-Days-Java_With_DSA-/tree/main/Day7_NestedLoops)
+- [Day 8: Number System](https://github.com/kashyaptushar1/120-Days-Java_With_DSA-/tree/main/Day8_Number_System)
+- [Day 9: Introduction of OOPS(Part 1)](https://github.com/kashyaptushar1/120-Days-Java_With_DSA-/tree/main/Day9_Introduction_of_oops)
+- [Day 10: Basic of Methods( part 2)](https://github.com/kashyaptushar1/120-Days-Java_With_DSA-/tree/main/Day10_part2(oops)_Basic_Of_Methods)
+- [Day 11: Scope of Variable (part 3)](https://github.com/kashyaptushar1/120-Days-Java_With_DSA-/tree/main/Day11_Part3-oops_Scope_Of_Variable)
+- [Day 12: Introduction of Array](https://github.com/kashyaptushar1/120-Days-Java_With_DSA-/tree/main/Day12_Introduction-Of-Array)
+- [Day 13: Basic problem on Array](https://github.com/kashyaptushar1/120-Days-Java_With_DSA-/tree/main/Day13_Basic_Problem_on_Array)
+- [Day 14: Intermediate Array Problem.](https://github.com/kashyaptushar1/120-Days-Java_With_DSA-/tree/main/Day14_Intermediate-Array-Problems)
+- [Day 15: Reversing and Rotating an Array.](https://github.com/kashyaptushar1/120-Days-Java_With_DSA-/tree/main/Day15_Reversing%20and%20Rotating%20an%20Array)
+- [Day 16: Sorting Based Problem.](https://github.com/kashyaptushar1/120-Days-Java_With_DSA-/tree/main/Day16_Sorting-Based-Problem)
+- [Day 17: Prefix-sum Problem in Array.](https://github.com/kashyaptushar1/120-Days-Java_With_DSA-/tree/main/Day17_Prefix-Sum-Problems-In-Array)
+- [Day 18: Introduction of 2D-Array.](https://github.com/kashyaptushar1/120-Days-Java_With_DSA-/tree/main/Day18_Introduction-of-2D-Array)
+
 - ...
 
 Feel free to explore each day to see my progress and the topics covered!
