@@ -20,7 +20,7 @@
 
 Here's a list of my daily progress in the Data Structures and Algorithms (DSA) journey:
 
-- [Day 1: Variables and Data Types](link-to-day1)
+- [Day 1: Variables and Data Types](https://github.com/kashyaptushar1/120-Days-Java_With_DSA-/tree/main/Day01_Variables%20and%20Data%20type)
 - [Day 2: Arrays](link-to-day2)
 - [Day 3: Strings](link-to-day3)
 - [Day 4: Linked Lists](link-to-day4)
