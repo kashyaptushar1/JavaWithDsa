@@ -38,6 +38,7 @@ Here's a list of my daily progress in the  java with Data Structures and Algorit
 - [Day 16: Sorting Based Problem.](https://github.com/kashyaptushar1/120-Days-Java_With_DSA-/tree/main/Day16_Sorting-Based-Problem)
 - [Day 17: Prefix-sum Problem in Array.](https://github.com/kashyaptushar1/120-Days-Java_With_DSA-/tree/main/Day17_Prefix-Sum-Problems-In-Array)
 - [Day 18: Introduction of 2D-Array.](https://github.com/kashyaptushar1/120-Days-Java_With_DSA-/tree/main/Day18_Introduction-of-2D-Array)
+- [Day 19: Questions on 2-D Array.](https://github.com/kashyaptushar1/120-Days-Java_With_DSA-/tree/main/Day19_Problems-on-2D-Array)
 
 - ...
 
