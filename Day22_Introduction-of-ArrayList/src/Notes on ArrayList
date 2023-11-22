@@ -1,0 +1,21 @@
+An `ArrayList` in Java is a dynamic array implementation of the `List` interface. It is part of the Java
+ Collections Framework and is found in the `java.util` package. Unlike traditional arrays, `ArrayList` can
+ dynamically resize itself, making it more flexible for handling collections of data.
+
+### Key Features of ArrayList:
+
+1. **Dynamic Sizing:**
+   - `ArrayList` can dynamically grow or shrink in size, which means you can add or remove elements easily without
+    worrying about the size.
+
+2. **Ordered Collection:**
+   - `ArrayList` maintains the order of elements as they are inserted. The order is significant and is based on the
+   order of insertion.
+
+3. **Random Access:**
+   - `ArrayList` provides constant-time access to elements based on their index, allowing for efficient random access.
+
+4. **Backed by an Array:**
+   - Internally, an `ArrayList` is backed by an array. When the array reaches its capacity, it is automatically
+    resized to accommodate more elements.
+

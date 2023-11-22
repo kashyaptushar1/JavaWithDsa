@@ -1,0 +1,62 @@
+Wrapper classes in Java provide a way to represent primitive data types as objects. The Java programming
+language is designed to be object-oriented, but primitive types (like int, char, boolean, etc.) are not objects.
+ To bridge this gap, wrapper classes are introduced, which encapsulate primitive types within an object.
+
+The eight primitive data types in Java have corresponding wrapper classes:
+
+1. `Byte`: `byte`
+2. `Short`: `short`
+3. `Integer`: `int`
+4. `Long`: `long`
+5. `Float`: `float`
+6. `Double`: `double`
+7. `Character`: `char`
+8. `Boolean`: `boolean`
+
+### Autoboxing:
+
+Autoboxing is the process of converting a primitive data type to its corresponding wrapper class.
+ This conversion is done automatically by the Java compiler. Here's an example of autoboxing:
+
+```java
+int primitiveInt = 42;
+Integer wrapperInt = primitiveInt; // Autoboxing
+```
+
+In this example, the primitive `int` value `42` is automatically converted to an `Integer` object (`wrapperInt`).
+ This simplifies the process of working with primitive types in scenarios where objects are required, such as when
+ using collections or other classes that work with objects.
+
+### Unboxing:
+
+Unboxing is the opposite of autoboxing – it's the process of converting an object of a wrapper class to its
+corresponding primitive data type. This conversion is also done automatically by the Java compiler.
+Here's an example of unboxing:
+
+```java
+Integer wrapperInt = 42;
+int primitiveInt = wrapperInt; // Unboxing
+```
+
+In this example, the `Integer` object `wrapperInt` is automatically converted to its primitive `int`
+value (`primitiveInt`).
+
+### Example:
+
+```java
+public class WrapperExample {
+    public static void main(String[] args) {
+        // Autoboxing
+        int primitiveInt = 123;
+        Integer wrapperInt = primitiveInt; // Autoboxing
+
+        // Unboxing
+        int newPrimitiveInt = wrapperInt; // Unboxing
+
+        System.out.println("Original Primitive: " + primitiveInt);
+        System.out.println("Wrapper: " + wrapperInt);
+        System.out.println("Unboxed Primitive: " + newPrimitiveInt);
+    }
+}
+```
+
