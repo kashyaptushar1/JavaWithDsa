@@ -42,6 +42,7 @@ Here's a list of my daily progress in the  java with Data Structures and Algorit
 - [Day 20: Two Most important Question on 2-D Array.](https://github.com/kashyaptushar1/120-Days-Java_With_DSA-/tree/main/Day20_Spiral-Matrix)
 - [Day 21: Prefix sum of Matrix.](https://github.com/kashyaptushar1/120-Days-Java_With_DSA-/tree/main/Day21_Prefix-Sum-In-Martix)
 - [Day 22: Introduction of ArrayList(Dynamic Array).](https://github.com/kashyaptushar1/120-Days-Java_With_DSA-/tree/main/Day22_Introduction-of-ArrayList)
+- [Day 23: Introduction of Time and space complexity.](https://github.com/kashyaptushar1/JavaWithDsa/tree/main/Day23_Introduction_of_Time%26Space_Complexity)
 
 - ...
 
