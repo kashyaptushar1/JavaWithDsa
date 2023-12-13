@@ -1,0 +1,83 @@
+Topic 1: Time Complexity👩‍💻
+
+1. Apply  the asymptotic analysis to measure the time requirement of an algorithm as a function of input
+size is known as time complexity¶ We assume each instruction takes a constant amount of time for time
+complexity analysis.
+
+2. Total time complexity of a program is equal to the summation of all the running time of disconnected
+   fragments.
+
+📘 Need for Time Complexity 📘 : When analyzing any algorithm, we need to evaluate the effectiveness of that
+algorithm,  Accordingly, we need to prefer the most optimized algorithm so as to save the time taken by it to
+execute An example for the same could be linear search and binary search let's suppose we need to
+search a given value in a sorted array of size 109. This would take 109 iterations for linear search whereas it
+would just take log(109) ~ 30 iterations for binary search to search the same element, thereby saving a lot of
+time.
+
+📘 Types of Time Complexity Analysis 📘:-
+
+1. Big-O Notation (O):-👨‍💻
+   - Definition: Big-O notation represents the upper bound of an algorithm's running time.
+     It provides an asymptotic upper limit, indicating the worst-case growth rate.
+   - Usage: O(g(n)) represents an upper bound on the function f(n), where g(n) is a function that
+    grows at a similar or faster rate.
+   - Example: If an algorithm has a time complexity of O(n^2), it means that the running time grows no
+    faster than a quadratic function of the input size.
+
+2. Theta Notation (Θ):-👨‍💻
+   - Definition: Theta notation represents a tight bound on an algorithm's running time.
+     It provides both an upper and a lower bound, indicating the exact growth rate.
+   - Usage: Theta(g(n)) represents both an upper and lower bound on the function f(n),
+     where g(n) is a function that grows at a similar rate.
+   - Example: If an algorithm has a time complexity of Theta(n), it means that the running time grows
+    linearly with the input size, and both the upper and lower bounds are linear.
+
+3. Omega Notation (Ω):-👨‍💻
+   - Definition: Omega notation represents the lower bound of an algorithm's running time.
+     It provides an asymptotic lower limit, indicating the best-case growth rate.
+   - Usage: Omega(g(n)) represents a lower bound on the function f(n), where g(n) is a function that
+     grows at a similar or slower rate.
+   - Example: If an algorithm has a time complexity of Omega(n), it means that the running
+     time grows at least linearly with the input size.
+
+📘 There are several types of time complexity analysis:-📘
+
+1. Constant Time O(1):-
+   - The running time of the algorithm remains constant regardless of the input size.
+   - Examples include basic arithmetic operations, array indexing, and most simple operations.
+
+2. Logarithmic Time O(log n):-
+   - The running time grows logarithmically as the input size increases.
+   - Common in algorithms that divide the problem into smaller subproblems, such as binary search.
+
+3. Linear Time O(n):-
+   - The running time is directly proportional to the size of the input.
+   - Examples include linear search and iterating through an array.
+
+4. Linear Logarithmic Time O(n log n):-
+   - Common in algorithms that divide the problem and recursively solve each subproblem,
+     like many efficient sorting algorithms (e.g., merge sort, heap sort).
+
+5. Quadratic Time O(n^2):-
+   - The running time is proportional to the square of the input size.
+   - Often seen in algorithms with nested iterations, such as bubble sort and selection sort.
+
+6. Cubic Time (O(n^3)):-
+   - The running time is proportional to the cube of the input size.
+   - Seen in algorithms with three levels of nested iterations.
+
+7. Exponential Time (O(2^n) or O(k^n), where k is a constant):-
+   - The running time grows exponentially with the input size.
+   - Common in algorithms that solve problems through exhaustive search,
+     such as the brute-force solution for the traveling salesman problem.
+
+8. Factorial Time (O(n!)):-
+   - The running time grows at a factorial rate with the input size.
+   - Rarely encountered in practice due to the extremely rapid growth.
+
+9. Polynomial Time (O(n^k), where k is a constant):-
+   - The running time is a polynomial function of the input size.
+   - Includes quadratic, cubic, and higher-degree polynomial time complexities.
+
+
+

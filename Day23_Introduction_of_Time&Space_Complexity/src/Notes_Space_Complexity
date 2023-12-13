@@ -1,0 +1,46 @@
+Topic 2: Space Complexity👩‍💻
+
+
+
+📘 Definition:-
+   - Space Complexity: The amount of memory space required by an algorithm, measured in terms of
+    the input size.
+
+📘 Importance:-
+   - Efficient use of memory is crucial, especially in resource-constrained environments like embedded
+    systems or on devices with limited RAM.
+   - Space complexity complements time complexity in evaluating the overall efficiency of an algorithm.
+
+📘 Components of Space Complexity:-
+   - Input Space: The space required to represent the input data.
+   - Auxiliary Space: The extra space needed by the algorithm for variables, temporary data storage, etc.
+
+📘 Space Complexity Classes:-
+   - Constant Space (O(1)):-
+     - The amount of memory used by the algorithm is constant and does not depend on the input size.
+     - Example: Algorithms with a fixed number of variables, regardless of input.
+
+📘 Linear Space O(n):-
+     - The space required grows linearly with the input size.
+     - Example: Algorithms that use an array or a data structure with a size proportional to the input.
+
+📘 Logarithmic Space O(log n):-
+     - The space grows logarithmically with the input size.
+     - Example: Binary search algorithms that use recursive calls but don't use additional space
+       for each level of recursion.
+
+📘 Quadratic Space O(n^2):-
+     - The space required is proportional to the square of the input size.
+     - Example: Algorithms that use a two-dimensional array to represent relationships between
+       pairs of elements.
+
+📘 Trade-off Between Time and Space:-
+   - Algorithms often involve a trade-off between time and space complexity. Improving one may result
+     in a deterioration of the other.
+   - Choosing the right balance depends on the specific requirements and constraints of the application.
+
+📘 Optimizations to Reduce Space Complexity:-
+   - In-Place Algorithms: Modify the input data directly without requiring additional space.
+   - Dynamic Programming: Optimize space by storing only the necessary information at each step.
+   - Data Compression: Reduce the memory footprint by compressing data structures when feasible.
+
