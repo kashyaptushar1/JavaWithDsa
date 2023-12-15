@@ -44,6 +44,7 @@ Here's a list of my daily progress in the  java with Data Structures and Algorit
 - [Day 22: Introduction of ArrayList(Dynamic Array).](https://github.com/kashyaptushar1/120-Days-Java_With_DSA-/tree/main/Day22_Introduction-of-ArrayList)
 - [Day 23: Introduction of Time and space complexity.](https://github.com/kashyaptushar1/JavaWithDsa/tree/main/Day23_Introduction_of_Time%26Space_Complexity)
 - [Day 24: Problems on Time Complexity.](https://github.com/kashyaptushar1/JavaWithDsa/tree/main/Day24_Problems_On_TcAndSc)
+- [Day 25:_Introduction_Of_Recursion.](https://github.com/kashyaptushar1/JavaWithDsa/tree/main/Day25_Introduction_Of_Recursion)
 
 - ...
 
