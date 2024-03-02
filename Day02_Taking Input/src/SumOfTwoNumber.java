@@ -1,5 +1,6 @@
-//ye program doo no ko add kr raha hai
+//Sum of two number by taking user input.
 import java.util.Scanner;
+// we can also add ( import java.util.*; )
 
 public class SumOfTwoNumber {
     public static void main(String[] args) {
