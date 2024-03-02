@@ -22,7 +22,9 @@ It is designed to be platform-independent, meaning that Java programs can run on
    - Java comes with a robust and extensive standard library (Java API) that provides pre-built modules and classes for common tasks. This includes utilities for data structures, networking, input/output, graphics, and more.
 
 7. **Multi-threading:**
-   - Java has built-in support for multi-threading, allowing developers to create concurrent applications that can execute multiple tasks simultaneously. This is essential for developing responsive and efficient software, especially in the context of modern, multi-core processors.
+   - Java has built-in support for multi-threading, allowing developers to create concurrent applications that can execute multiple tasks simultaneously.
+This is essential for developing responsive and efficient software, especially in the context of modern, multi-core processors.
+Java Also help to create the backend and system designing.
 
 8. **Security:**
    - Java places a strong emphasis on security. The bytecode executed by the JVM is designed to be secure and is subjected to various runtime checks. Java applets, though less common today, were initially a notable use case for secure execution within web browsers.
