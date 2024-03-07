@@ -1,5 +1,6 @@
 import java.util.Scanner;
-
+import java.util.*;
+// we can also use this line to take the input by user
 public class InputArrayByUser {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);// This is an object of Scanner class
